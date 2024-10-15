@@ -6,14 +6,14 @@ The motivation behind this project is to explore how ChatGPT can assist someone 
 ## How to Do It
 In this project, I provide prompts such as:
 ```
-generate python code to capture a certain area of the screen, display a box in the selected area, perform OCR on the text, translate it to English, show it in a window, refresh the OCR result every 0.5 seconds, and ensure the code can run on Windows.
+generate python code to capture certain area of screen,display a box in selected area, ocr the text, tranlate to english, show it in a window, refresh the ocr result every 0.5s, make the code able to run on windows
 ```
 and
 ```
-draw a red box using PyQt, make it always on top, and always visible. Perform OCR for the area inside the box and output the text obtained from OCR to another window.
+draw a red box by pyqt, make it always on top, always show. perform ocr for area inside the box, output text obtained from ocr to another window
 ```
 
-These prompts help ChatGPT generate code for me. Some minor modifications are usually required to make the code run more smoothly, which takes up about 90% of the time. I find it relatively easy to get a decent initial output, but adjusting it to fit specific needs can lead to unique results.
+These prompts help ChatGPT generate code for me. Some minor modifications are usually required to make the code run more smoothly, which takes up about 90% of the time(totally ~ 6h). I find it relatively easy to get a decent initial output, but adjusting it to fit specific needs can lead to unique results.
 
 My process involves copying and pasting code to execute it, understanding the output, and then informing ChatGPT about any issues to resolve or next steps to take. I believe that anyone with basic command line knowledge could achieve similar results. One frustrating issue I encountered is that ChatGPT tends to take my prompts very literally, making it difficult to retract the last prompt and revert to a previous output. A better approach might be to start a new conversation.
 
