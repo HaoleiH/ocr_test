@@ -18,3 +18,7 @@ What I have done is just copy and paste code to excute, understand the output, t
 For the software, it has a preset selected area, and performs ocr and translates obtained text to Chinese(simplified) every 0.5s, then output result to another window. the ocr area can be dragged and resized. The result window can only be dragged and the size can only be adjust in ocr5.py. The [ocr.exe file(260MB)](https://github.com/HaoleiH/ocr_test/releases/tag/ocr) can be excuted on Windows alone. To run [ocr5.py](https://github.com/HaoleiH/ocr_test/blob/main/ocr5.py), some packages need to be installed. A list of packages I used is shown in [toy2.yml](https://github.com/HaoleiH/ocr_test/blob/main/toy2.yml).
 
 All the windows are created by [PyQt](https://pypi.org/project/PyQt5/). The OCR part is done by [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) and [pytesserat](https://pypi.org/project/pytesseract/). The translation part is done by [deep-translator](https://github.com/nidhaloff/deep-translator). [ChatGPT](chatgpt.com) free plan is used to generate these code. I don't have any knowledge on these packages before this project. ChatGPT used these package so I just installed them.
+
+Following picture shows a preview of the output.
+
+![Preview of this software](./result.png)

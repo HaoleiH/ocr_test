@@ -23,3 +23,7 @@ The software features a preset selected area that performs OCR and translates th
 All windows are created using [PyQt](https://pypi.org/project/PyQt5/). The OCR functionality is provided by [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) and [pytesseract](https://pypi.org/project/pytesseract/). The translation feature is powered by [deep-translator](https://github.com/nidhaloff/deep-translator). I utilized the free plan of [ChatGPT](https://chatgpt.com) to generate this code, and I had no prior knowledge of these packages before this project. ChatGPT suggested these packages, which I then installed.
 
 BTW, this file is also revised by ChatGPT.
+
+Following picture shows a preview of the output.
+
+![Preview of this software](./result.png)
