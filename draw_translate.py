@@ -6,7 +6,7 @@ from PIL import ImageGrab
 import pytesseract
 from deep_translator import GoogleTranslator
 import numpy as np
-
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\666\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 class TransparentBox(QWidget):
     def __init__(self, left, top, width, height):
         super().__init__()
@@ -104,7 +104,7 @@ def ocr_image(image):
     return text
 
 
-def translate_text(text, target_lang='en'):
+def translate_text(text, target_lang='zh-CN'):
     """
     Translate the extracted text to the desired language using deep-translator.
     :param text: Text to translate
