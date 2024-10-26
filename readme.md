@@ -31,4 +31,9 @@ Following picture shows a preview of the output when runing ocr5.py or ocr.exe o
 Following picture shows a preview of the output when runing draw_tranlate.py or drawtanslate on ubuntu 18.04 LTS.
 ![Preview of this software on Ubuntu](./images/draw_translate.png)
 
+## Update
+
+Added tranlation to English support by changing target language to English.[excutable](https://github.com/HaoleiH/ocr_test/releases/tag/ocr-translate-to-en) can be found here.
+![preview of en translation](./images/result-en.PNG)
+
 [^1]: Actually target language can be any language google tranlate supports. check the [list](https://cloud.google.com/translate/docs/languages). replace "zh-CN" with another other language code in .py file.
